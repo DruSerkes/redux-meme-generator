@@ -1,0 +1,24 @@
+.Meme {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0.7rem;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 2px;
+}
+
+.Meme-Remove {
+	cursor: crosshair;
+}
+
+.Meme p {
+	position: relative;
+	margin: 0 auto;
+}
