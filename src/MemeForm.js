@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { v4 as uuid } from 'uuid';
+import './MemeForm.css';
+
+// STYLE THIS AND BE DONE WITH IT!
 
 const MemeForm = () => {
 	const dispatch = useDispatch();

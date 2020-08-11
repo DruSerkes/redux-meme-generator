@@ -1,0 +1,21 @@
+.MemeForm h1 {
+	color: cadetblue;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+.MemeForm form {
+	width: 40vw;
+	margin: 2rem auto;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.MemeForm input,
+button {
+	margin-bottom: 0.8rem;
+	border-radius: 10px;
+	height: 1.3rem;
+	outline: none;
+}
